@@ -1,0 +1,1511 @@
+
+.container ul {
+    width: 350px;
+    list-style-type: none;
+  }
+  .container li {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px solid #000;
+    text-align: center;
+    background: rgba(12, 133, 12, 1);
+    background: -moz-linear-gradient(top, rgba(12, 133, 12, 1) 0%, rgba(114, 191, 95, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(12, 133, 12, 1)), color-stop(100%, rgba(114, 191, 95, 1)));
+    background: -webkit-linear-gradient(top, rgba(12, 133, 12, 1) 0%, rgba(114, 191, 95, 1) 100%);
+    background: -o-linear-gradient(top, rgba(12, 133, 12, 1) 0%, rgba(114, 191, 95, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(12, 133, 12, 1) 0%, rgba(114, 191, 95, 1) 100%);
+    background: linear-gradient(to bottom, rgba(12, 133, 12, 1) 0%, rgba(114, 191, 95, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0c850c', endColorstr='#72bf5f', GradientType=0);
+    position: sticky;
+  }
+  .container li a {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+  .box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; 
+    text-align: center;
+  }
+  #search {
+    width: 450px;
+    height: 40px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #91e3a7;
+    color:#000;
+    font-size: medium;
+    letter-spacing: 1.1em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  
+  /*** modals **/
+  
+  #aloe {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #aloe:hover {
+    opacity: 0.7;
+  }
+  #birch {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #birch:hover {
+    opacity: 0.7;
+  }
+  #blackcurrant {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #blackcurrant:hover {
+    opacity: 0.7;
+  }
+  #camomile {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #camomile:hover {
+    opacity: 0.7;
+  }
+  #clover {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #clover:hover {
+    opacity: 0.7;
+  }
+  #dandelion {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #dandelion:hover {
+    opacity: 0.7;
+  }
+  #elderflower {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #elderflower:hover {
+    opacity: 0.7;
+  }
+  #ginger {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #ginger:hover {
+    opacity: 0.7;
+  }
+  #icelandic-moss {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #icelandic-moss:hover {
+    opacity: 0.7;
+  }
+  #lavander {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #lavander:hover {
+    opacity: 0.7;
+  }
+  #linden-flower {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #linden-flower:hover {
+    opacity: 0.7;
+  }
+  #meadowsweet {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #meadowsweet:hover {
+    opacity: 0.7;
+  }
+  #nettle {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #nettle:hover {
+    opacity: 0.7;
+  }
+  #passionflower {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #passionflower:hover {
+    opacity: 0.7;
+  }
+  #peppermint {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #peppermint:hover {
+    opacity: 0.7;
+  }
+  #raspberry {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #raspberry:hover {
+    opacity: 0.7;
+  }
+  #rosehip {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #rosehip:hover {
+    opacity: 0.7;
+  }
+  #rosemary {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #rosemary:hover {
+    opacity: 0.7;
+  }
+  #sage {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #sage:hover {
+    opacity: 0.7;
+  }
+  #turmeric {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #turmeric:hover {
+    opacity: 0.7;
+  }
+  #yarrow {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #yarrow:hover {
+    opacity: 0.7;
+  }
+  #horehound {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #horehound:hover {
+    opacity: 0.7;
+  }
+  #cinnamon {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #cinnamon:hover {
+    opacity: 0.7;
+  }
+  #valerian {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #valerian:hover {
+    opacity: 0.7;
+  }
+  #feverfew {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #feverfew:hover {
+    opacity: 0.7;
+  }
+  #fireweed {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #fireweed:hover {
+    opacity: 0.7;
+  }
+  #veronica-officialis {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #veronica-officialis:hover {
+    opacity: 0.7;
+  }
+  #mantle {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #mantle:hover {
+    opacity: 0.7;
+  }
+  #cumin {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #cumin:hover {
+    opacity: 0.7;
+  }
+  #garlic {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #garlic:hover {
+    opacity: 0.7;
+  }
+  #rose {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #rose:hover {
+    opacity: 0.7;
+  }
+  #cornflower {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #cornflower:hover {
+    opacity: 0.7;
+  }
+  #tyme {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #tyme:hover {
+    opacity: 0.7;
+  }
+  
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+    margin-right: -600px; 
+  }
+  .modal-content {
+    margin-left: 600px;
+    margin-top: 100px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    height:380px;
+  }
+  #caption {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption1 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption1 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption2 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption2 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption3 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption3 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption4 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption4 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption5 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption5 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption6 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption6 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption7 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption7 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption8 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption8 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption9 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption9 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption10 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption10 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption11 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption11 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption12 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption12 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption13 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption13 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption14 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption14 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption15 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption15 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption16 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption16 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption17 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption17 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption18 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption18 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption19 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption19 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption20 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption20 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption21 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption21 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption22 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption22 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption23 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption23 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption24 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption24 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption25 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption25 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption26 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption26 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption27 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption27 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption28 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption28 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption29 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption29 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption30 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption30 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption31 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption31 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption32 {
+    margin: 550px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  
+  }
+  .modal-content, #caption32 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  /* The Close Button */
+  .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+  }
+  
+  /*main items*/
+  
+  .sidebar {
+    position: absolute;
+    padding: 5px;
+    right: -120px;
+    transition: 0.3s;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 25px 0 0 25px;
+    margin-right: 20pt;
+    height: 46px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.2em;
+    color: #eaeee8;
+  
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .column {
+    float: left;
+    width: 49%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    height:900px;
+    right:-400px;
+    padding-left: 30px;
+    padding-right:30px;
+    
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+    float: left;
+    justify-content: right;
+   
+  }
+  img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #footer {
+    position: fixed;
+    padding: 10px 10px 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: green;
+    color: white;
+    text-align: center;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 700px) {
+    .column {
+        width: 100%;
+        margin-right: 20px;
+        overflow: scroll;
+       height:800px;
+       font-size: 1.2em;
+    }
+    #home {
+      background-image: url('assets/images/meadow.jpeg');
+      background-size: cover;
+      background-repeat: repeat-y;
+      background-position: center;
+      background-color: rgba(166, 237, 175, 0.6); 
+  
+      font-family: Arial Black, sans-serif;
+      font-size: 1.25rem;
+      text-align: justify;
+      color: lavenderblush;
+      margin: 10px 20px;
+      padding: 10px;
+      letter-spacing: 1.5px;
+    }
+    .modal {
+      display: none; 
+      position: fixed; 
+      z-index: 1; 
+      left: 0;
+      top: 0;
+      width: 98%; 
+      height: 100%; 
+      overflow: auto; 
+      background-color: rgb(0,0,0); 
+      background-color: rgba(0,0,0,0.9); 
+      margin-right: 30px; 
+    }
+    .modal-content {
+      margin-left: 20px;
+      margin-top: 100px;
+      display: block;
+      width: 75%;
+      max-width: 700px;
+      height:380px;
+    }
+  #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 600px;
+      text-align: right;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+      float: left;
+  }
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  #caption1 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption1 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption2 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption3 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption4 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption4 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption5 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption5 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption6 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption6 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption7 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption7 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption8 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption8 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption9 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption9 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption10 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption10 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption11 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption11 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption12 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption12 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption13 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption13 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption14 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption14 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption15 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption15 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption16 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption16 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption17 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption17 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption18 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption18 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption19 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+    }
+    .modal-content, #caption19 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    }
+  #caption20 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption20 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption21 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+  }
+  .modal-content, #caption21 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption22 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption22 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption23 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption23 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption24 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption24 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption25 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption25 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption26 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption26 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption27 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption27 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption28 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption28 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption29 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption29 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption30 {
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  text-align: right;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  float: left;
+  }
+  .modal-content, #caption30 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  #caption31 {
+    margin: auto;
+    margin: 20px;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: right;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    float: left;
+    }
+    .modal-content, #caption31 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    }
+    #caption32 {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 600px;
+      text-align: right;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+      float: left;
+      }
+      .modal-content, #caption32 {
+      animation-name: zoom;
+      animation-duration: 0.6s;
+      }
+  }
+  
+  @media screen  and (min-width: 993px) {
+    .sidebar {
+      margin-left: -35px;  
+      float:right;
+      position:fixed;
+     
+    }
+  
+    .main-container {
+  
+      padding-left: 430px;
+      padding-right: 40px;
+      float: left;
+      display:table;
+      margin-top: -500px;
+      padding-right: 20px;
+      margin-bottom: -40px;
+      font-size: 1.20em;
+      height: 950px;
+      
+    }
+    #home {
+      background-image: url('assets/images/meadow.jpeg');
+      background-size: cover;
+      background-repeat: repeat-y;
+      background-position: center;
+      background-color: rgba(166, 237, 175, 0.6); 
+  
+      font-family: Arial Black, sans-serif;
+      font-size: 1.25rem;
+      text-align: justify;
+      color: lavenderblush;
+      margin: 10px 20px;
+      padding: 10px;
+      letter-spacing: 1.5px;
+    }
+  
+  }
+  
