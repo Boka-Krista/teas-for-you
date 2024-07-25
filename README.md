@@ -116,7 +116,7 @@ The live link can be found [here](https://boka-krista.github.io/teas-for-health/
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [JavaScript](https://simple.wikipedia.org/wiki/JavaScript)
+- [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) used for pages funcionality such as modals or searchbar.
 ## Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
